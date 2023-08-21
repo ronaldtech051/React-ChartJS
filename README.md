@@ -1,310 +1,81 @@
-Contribution: 2022-07-14 10:00
+# react-chartjs-2
 
-Contribution: 2022-07-14 10:01
+<img align="right" width="150" height="150" alt="Logo" src="website/static/img/logo.svg">
 
-Contribution: 2022-07-14 10:02
+React components for <a href="https://www.chartjs.org">Chart.js</a>, the most popular charting library.
 
-Contribution: 2022-07-14 10:03
+Supports Chart.js v4 and v3.
 
-Contribution: 2022-07-14 10:04
+[![NPM version][npm]][npm-url]
+[![Downloads][downloads]][downloads-url]
+[![Build status][build]][build-url]
+[![Coverage status][coverage]][coverage-url]
+[![Bundle size][size]][size-url]
 
-Contribution: 2022-07-14 10:05
+[npm]: https://img.shields.io/npm/v/react-chartjs-2.svg
+[npm-url]: https://www.npmjs.com/package/react-chartjs-2
 
-Contribution: 2022-07-14 10:06
+[downloads]: https://img.shields.io/npm/dm/react-chartjs-2.svg
+[downloads-url]: https://www.npmjs.com/package/react-chartjs-2
 
-Contribution: 2022-07-14 10:07
+[build]: https://img.shields.io/github/actions/workflow/status/reactchartjs/react-chartjs-2/ci.yml?branch=master
+[build-url]: https://github.com/reactchartjs/react-chartjs-2/actions
 
-Contribution: 2022-07-14 10:08
+[coverage]: https://img.shields.io/codecov/c/github/reactchartjs/react-chartjs-2.svg
+[coverage-url]: https://app.codecov.io/gh/reactchartjs/react-chartjs-2
 
-Contribution: 2022-07-14 10:09
+[size]: https://img.shields.io/bundlephobia/minzip/react-chartjs-2
+[size-url]: https://bundlephobia.com/package/react-chartjs-2
 
-Contribution: 2022-07-14 10:10
+<br />
+<a href="#quickstart">Quickstart</a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="#docs">Docs</a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="https://slack.cube.dev/?ref=eco-react-chartjs">Slack</a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="https://stackoverflow.com/questions/tagged/react-chartjs-2">Stack Overflow</a>
+<br />
+<hr />
 
-Contribution: 2022-07-21 10:00
+## Quickstart
 
-Contribution: 2022-07-21 10:01
+Install this library with peer dependencies:
 
-Contribution: 2022-07-21 10:02
+```bash
+pnpm add react-chartjs-2 chart.js
+# or
+yarn add react-chartjs-2 chart.js
+# or
+npm i react-chartjs-2 chart.js
+```
 
-Contribution: 2022-07-21 10:03
+We recommend using `chart.js@^4.0.0`.
 
-Contribution: 2022-07-21 10:04
+Then, import and use individual components:
 
-Contribution: 2022-07-21 10:05
+```jsx
+import { Doughnut } from 'react-chartjs-2';
 
-Contribution: 2022-07-21 10:06
+<Doughnut data={...} />
+```
 
-Contribution: 2022-07-21 10:07
+Need an API to fetch data? Consider [Cube](https://cube.dev/?ref=eco-react-chartjs), an open-source API for data apps.
 
-Contribution: 2022-07-21 10:08
+<br />
 
-Contribution: 2022-07-26 10:00
+[![supported by Cube](https://user-images.githubusercontent.com/986756/154330861-d79ab8ec-aacb-4af8-9e17-1b28f1eccb01.svg)](https://cube.dev/?ref=eco-react-chartjs)
 
-Contribution: 2022-07-26 10:01
+## Docs
 
-Contribution: 2022-07-26 10:02
+- [Migration to v4](https://react-chartjs-2.js.org/docs/migration-to-v4)
+- [Working with datasets](https://react-chartjs-2.js.org/docs/working-with-datasets)
+- [Working with events](https://react-chartjs-2.js.org/docs/working-with-events)
+- [FAQ](https://react-chartjs-2.js.org/faq)
+- [Components](https://react-chartjs-2.js.org/components)
+- [Examples](https://react-chartjs-2.js.org/examples)
 
-Contribution: 2022-07-26 10:03
+## License
 
-Contribution: 2022-07-26 10:04
-
-Contribution: 2022-07-26 10:05
-
-Contribution: 2022-07-26 10:06
-
-Contribution: 2022-07-26 10:07
-
-Contribution: 2022-07-26 10:08
-
-Contribution: 2022-07-26 10:09
-
-Contribution: 2022-07-26 10:10
-
-Contribution: 2022-08-01 10:00
-
-Contribution: 2022-08-01 10:01
-
-Contribution: 2022-08-01 10:02
-
-Contribution: 2022-08-01 10:03
-
-Contribution: 2022-08-01 10:04
-
-Contribution: 2022-08-01 10:05
-
-Contribution: 2022-08-01 10:06
-
-Contribution: 2022-08-01 10:07
-
-Contribution: 2022-08-01 10:08
-
-Contribution: 2022-08-01 10:09
-
-Contribution: 2022-08-01 10:10
-
-Contribution: 2022-08-08 10:00
-
-Contribution: 2022-08-08 10:01
-
-Contribution: 2022-08-08 10:02
-
-Contribution: 2022-08-08 10:03
-
-Contribution: 2022-08-08 10:04
-
-Contribution: 2022-08-08 10:05
-
-Contribution: 2022-08-08 10:06
-
-Contribution: 2022-08-08 10:07
-
-Contribution: 2022-08-08 10:08
-
-Contribution: 2022-08-08 10:09
-
-Contribution: 2022-08-08 10:10
-
-Contribution: 2022-08-08 10:11
-
-Contribution: 2022-08-11 10:00
-
-Contribution: 2022-08-11 10:01
-
-Contribution: 2022-08-11 10:02
-
-Contribution: 2022-08-11 10:03
-
-Contribution: 2022-08-11 10:04
-
-Contribution: 2022-08-11 10:05
-
-Contribution: 2022-08-11 10:06
-
-Contribution: 2022-08-11 10:07
-
-Contribution: 2022-08-11 10:08
-
-Contribution: 2022-08-15 10:00
-
-Contribution: 2022-08-15 10:01
-
-Contribution: 2022-08-15 10:02
-
-Contribution: 2022-08-15 10:03
-
-Contribution: 2022-08-15 10:04
-
-Contribution: 2022-08-15 10:05
-
-Contribution: 2022-08-15 10:06
-
-Contribution: 2022-08-15 10:07
-
-Contribution: 2022-08-15 10:08
-
-Contribution: 2022-08-17 10:00
-
-Contribution: 2022-08-17 10:01
-
-Contribution: 2022-08-17 10:02
-
-Contribution: 2022-08-24 10:00
-
-Contribution: 2022-08-24 10:01
-
-Contribution: 2022-08-24 10:02
-
-Contribution: 2022-08-30 10:00
-
-Contribution: 2022-08-30 10:01
-
-Contribution: 2022-08-30 10:02
-
-Contribution: 2022-08-30 10:03
-
-Contribution: 2022-08-30 10:04
-
-Contribution: 2022-08-31 10:00
-
-Contribution: 2022-08-31 10:01
-
-Contribution: 2022-09-01 10:00
-
-Contribution: 2022-09-01 10:01
-
-Contribution: 2022-09-01 10:02
-
-Contribution: 2022-09-01 10:03
-
-Contribution: 2022-09-01 10:04
-
-Contribution: 2022-09-07 10:00
-
-Contribution: 2022-09-07 10:01
-
-Contribution: 2022-09-07 10:02
-
-Contribution: 2022-09-07 10:03
-
-Contribution: 2022-09-07 10:04
-
-Contribution: 2022-09-07 10:05
-
-Contribution: 2022-09-07 10:06
-
-Contribution: 2022-09-07 10:07
-
-Contribution: 2022-09-08 10:00
-
-Contribution: 2022-09-08 10:01
-
-Contribution: 2022-09-08 10:02
-
-Contribution: 2022-09-21 10:00
-
-Contribution: 2022-09-21 10:01
-
-Contribution: 2022-09-21 10:02
-
-Contribution: 2022-09-21 10:03
-
-Contribution: 2022-09-21 10:04
-
-Contribution: 2022-09-21 10:05
-
-Contribution: 2022-09-26 10:00
-
-Contribution: 2022-09-26 10:01
-
-Contribution: 2022-09-26 10:02
-
-Contribution: 2022-09-26 10:03
-
-Contribution: 2022-09-26 10:04
-
-Contribution: 2022-09-26 10:05
-
-Contribution: 2022-09-26 10:06
-
-Contribution: 2022-09-26 10:07
-
-Contribution: 2022-09-26 10:08
-
-Contribution: 2022-09-28 10:00
-
-Contribution: 2022-09-28 10:01
-
-Contribution: 2022-09-28 10:02
-
-Contribution: 2022-09-28 10:03
-
-Contribution: 2022-09-28 10:04
-
-Contribution: 2022-09-28 10:05
-
-Contribution: 2022-09-28 10:06
-
-Contribution: 2022-09-28 10:07
-
-Contribution: 2022-09-28 10:08
-
-Contribution: 2022-09-28 10:09
-
-Contribution: 2022-09-28 10:10
-
-Contribution: 2022-09-28 10:11
-
-Contribution: 2022-09-30 10:00
-
-Contribution: 2022-09-30 10:01
-
-Contribution: 2022-09-30 10:02
-
-Contribution: 2022-09-30 10:03
-
-Contribution: 2022-09-30 10:04
-
-Contribution: 2022-09-30 10:05
-
-Contribution: 2022-09-30 10:06
-
-Contribution: 2022-09-30 10:07
-
-Contribution: 2022-09-30 10:08
-
-Contribution: 2022-10-04 10:00
-
-Contribution: 2022-10-04 10:01
-
-Contribution: 2022-10-04 10:02
-
-Contribution: 2022-10-04 10:03
-
-Contribution: 2022-10-04 10:04
-
-Contribution: 2022-10-04 10:05
-
-Contribution: 2022-10-04 10:06
-
-Contribution: 2022-10-04 10:07
-
-Contribution: 2022-10-05 10:00
-
-Contribution: 2022-10-05 10:01
-
-Contribution: 2022-10-05 10:02
-
-Contribution: 2022-10-05 10:03
-
-Contribution: 2022-10-05 10:04
-
-Contribution: 2022-10-05 10:05
-
-Contribution: 2022-10-05 10:06
-
-Contribution: 2022-10-05 10:07
-
-Contribution: 2022-10-05 10:08
-
-Contribution: 2022-10-05 10:09
-
+[MIT Licensed](LICENSE)
+Copyright (c) 2020 Jeremy Ayerst
